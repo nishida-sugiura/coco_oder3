@@ -4,28 +4,23 @@ var key = params.get('key');
 $(function () {
     // 送信
     $('form').submit(function () {
-        var time1 = $('input[name="time1"]').val();
-        var num1 = $('input[name="qty1"]').val();
-        var breed1 = $('input[name="breed1"]').val();
         
-        var time2 = $('input[name="time2"]').val();
-        var num2 = $('input[name="qty2"]').val();
+        var num1 = $('select[name="qty1"]').val();
+        var breed1 = $('input[name="breed1"]').val();      
+        
+        var num2 = $('select[name="qty2"]').val();
         var breed2 = $('input[name="breed2"]').val();
         
-        var time3 = $('input[name="time3"]').val();
         var num3 = $('input[name="qty3"]').val();
         var breed3 = $('input[name="breed3"]').val();
         
-        var time4 = $('input[name="time4"]').val();
-        var num4 = $('input[name="qty4"]').val();
+        var num4 = $('select[name="qty4"]').val();
         var breed4 = $('input[name="breed4"]').val();        
         
-        var time5 = $('input[name="time5"]').val();
-        var num5 = $('input[name="qty5"]').val();
+        var num5 = $('select[name="qty5"]').val();
         var breed5 = $('input[name="breed5"]').val();
         
-        var time6 = $('input[name="time6"]').val();
-        var num6 = $('input[name="qty6"]').val();
+        var num6 = $('select[name="qty6"]').val();
         var breed6 = $('input[name="breed6"]').val();   
         
         var daytime = $('input[name="daytime"]').val();
