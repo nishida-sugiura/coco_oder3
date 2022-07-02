@@ -11,7 +11,7 @@ $(function () {
         var num2 = $('select[name="qty2"]').val();
         var breed2 = $('input[name="breed2"]').val();
         
-        var num3 = $('input[name="qty3"]').val();
+        var num3 = $('select[name="qty3"]').val();
         var breed3 = $('input[name="breed3"]').val();
         
         var num4 = $('select[name="qty4"]').val();
