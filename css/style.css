@@ -215,8 +215,8 @@ label {
 input[type="date"] {
   position: relative;
   padding: 0 10px;
-  width: 200px;
-  height: 36px;
+  width: 50vw;
+  height: 15vw;
   border: 0;
   background: transparent;
   box-sizing: border-box;
@@ -253,9 +253,9 @@ input[type="date"]::-webkit-calendar-picker-indicator{
   right: 0px;
   top: 0px;
   padding: 0;
-  width: 200px;
-  height: 36px;
-  background: rgba(255, 250, 0, 0.1); // 一旦背景色を付けて、見やすくします
+  width: 50vw;
+  height: 15vw;
+  background: rgba(255, 250, 0, 0.3); // 一旦背景色を付けて、見やすくします
   color: transparent;
   cursor: pointer;
 }
