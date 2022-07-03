@@ -58,7 +58,9 @@ for(var i=0;i<kk.length;i++){
            }else{
     }
   }  
-        
+       
+       
+       msg = msg + ["代金合計：" + num1*price1+num2*price2+num3*price3+num4*price4+num5*price5+num6*price6]  + "\n"+ "============================="+ "\n"
        msg = msg + ["受取日：" + daytime] ;
 
         
