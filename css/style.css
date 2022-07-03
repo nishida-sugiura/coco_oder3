@@ -273,12 +273,11 @@ width: 100%;
 font-size: 5vw;
 }
 
-
 .box{
   position: relative;
 
    color: #000;
-  -webkit-text-stroke: 0.8px #FFF;
+  -webkit-text-stroke: 1.5px #FFF;
   text-stroke: 1px #FFF;
 
 }
@@ -287,9 +286,8 @@ font-size: 5vw;
   position: absolute;
   top: 5px;
   left: 5px;
-
+  font-weight: bold;
 }
-
 
 
 
