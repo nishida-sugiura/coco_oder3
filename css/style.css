@@ -144,7 +144,7 @@ footer .pr {display: block;font-size: 80%;}
 	line-height: 1.5;	/*行間を少し狭くする。デフォルトは最上部のbodyにあります。*/
 	font-size: 80%;		/*文字サイズを少し小さく*/
 	color: #333;		/*文字色*/
-	height: 3em;		/*高さ。1.5emを１行分とカウントして下さい。6emなら４行です。*/
+	height: 3.5em;		/*高さ。1.5emを１行分とカウントして下さい。6emなら４行です。*/
 	overflow: hidden;	/*高さを超えた場合に非表示にする*/
 }
 
