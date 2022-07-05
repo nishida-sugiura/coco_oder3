@@ -11,6 +11,11 @@
 <link rel="stylesheet" href="css/style_spinner.css">
 
 
+    <!--Bootstrap----20220705-1943--->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+
 </head>
 <body>
 
@@ -194,7 +199,20 @@
 
 </select>
 </p>
-
+	
+	
+	
+	
+	
+	
+<input type="text" name="楊貴妃@">
+	
+	
+	
+	
+	
+	
+	
 </form>
 </div>
 
@@ -234,9 +252,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
 </script>
 
 
-
-
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
@@ -254,4 +269,42 @@ window.addEventListener('DOMContentLoaded', ()=>{
 	
 	
 </body>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<script>
+    //GASのAPIのURL（各自変更してください。）
+    //const endpoint = "https://script.google.com/macros/s/AKfycbyFrMOJteKXUW0tGmBHHjRM6HwGfVfR-fT4jglnvcM3TBp4j6Fh2bE9qf88VBAvYB5C/exec";
+    const endpoint = "https://script.google.com/macros/s/AKfycbxKOPWRDRYsE8o6Ieg03sodQs7wVq8HcQmRZz3XWfzFQTfUxoWAbe-dJ-lpS0ktXYdJlQ/exec";
+     
+        //APIを使って非同期データを取得する
+        fetch(endpoint)
+        .then(response => response.json())
+        /*成功した処理*/
+        .then(data => {
+            //JSONから配列に変換
+            const object = data;
+            //inputタグそれぞれに取得したデータを設定
+            $('input').each(function (index, element) {
+                if (object[0][$(element).attr('name')]) {
+                    $(element).val([object[0][$(element).attr('name')]]);
+                }
+            });
+        });
+</script>
+	
+	
+	
 </html>
